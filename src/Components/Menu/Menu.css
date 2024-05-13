@@ -1,0 +1,24 @@
+
+.Menu li{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 2px;
+	text-align: left;
+	color:  #56593D;
+	}
+
+.Menu .list{
+	width:calc((100% - 60px) / 4);
+	width: 465px;
+	margin-left: 30px;
+}
+
+/* .disnon{
+	display: none;
+} */
+.disnon li{
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+}

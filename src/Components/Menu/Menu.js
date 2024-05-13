@@ -1,0 +1,37 @@
+
+import './Menu.css';
+import {Link} from 'react-router-dom'
+
+function Menu() {
+  return (
+    <nav className='Menu'>
+      <ul className='list flex'>
+  
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li className='about'>
+          <Link to="/about">About</Link>
+          <ul className='disnon'>
+            <li>MEN</li>
+
+          </ul>
+          <ul className='disnon'>
+            <li>WOMEN</li>
+            
+          </ul>
+        </li>
+        <li>
+          <Link to="/delivery">Delivery</Link>
+        </li>
+        <li>
+          <Link to="/contacts">Contacts</Link>
+        </li>
+      </ul>
+
+      
+    </nav>
+  );
+}
+
+export default Menu;

@@ -1,0 +1,23 @@
+
+.icons{
+	text-align:right;
+
+}
+.icons_head{
+	padding-left: 20px;
+	
+}
+.cart_ic{
+	position: relative;
+}
+.cart_num{
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	bottom: -5px;
+	right: -5px;
+}
