@@ -1,10 +1,11 @@
 import './Logo.css';
-import '../../img/adidas.png'
+import logo from '../../img/adidas.png'
+
 
 function Logo() {
   return (
     <a href="index.html" className="logo">
-		<img src={Logo}alt=""/></a>
+		<img src={logo}alt=""/></a>
   );
 }
 

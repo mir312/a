@@ -1,6 +1,7 @@
 .btn{
    background: #000;
 	border-radius: 5px;
+	border: solid 1px #000;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 19px;
@@ -23,9 +24,9 @@
 	background: #fff;
 	color: #000;
 }
-/* 
-.icon{
+
+/* .icon{
 	background:url(../../img/icons/ic-5.svg) no-repeat ;
 	color: #fff;
 	position: absolute;
-} */
+}  */
