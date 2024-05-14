@@ -3,10 +3,7 @@ import '../../video/adidas.mp4'
 
 function Title() {
   return (
-   <video className='video' src="video/adidas.mp4"></video>
- 
-
-
+   <h2>sdfghjk</h2>
   );
 }
 
