@@ -200,3 +200,10 @@
   transform: translateY(0px);
   transition-delay: 0.75s;
 }
+
+
+.sec_home{
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: 700;
+}

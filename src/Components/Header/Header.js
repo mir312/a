@@ -21,7 +21,7 @@ function Header() {
           
           </div>
           <Link to="/cart" className="Cart_ic">
-            <span></span>
+            <span>0</span>
           </Link>
         </div>
       </div>

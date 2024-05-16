@@ -1,6 +1,6 @@
 import './Footer.css';
 // import '../../img/icons/ic_face.svg'
-
+ import '../../img/icons/facebook.svg'
 function Footer() {
   return (
    <section className='footer'>
@@ -16,96 +16,95 @@ function Footer() {
    <h3 className="sec_foot">
    PRODUCTS
    </h3>
-   <p className="sec_desk">
+   <a href=""><p className="sec_desk">
 Shoes
-   </p>
-   <p className="sec_desk">
+   </p></a>
+     <a href=""><p className="sec_desk">
 Clothing
-   </p>
-   <p className="sec_desk">
-
-   accessories
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
+ accessories
+   </p></a>
+   <a href=""><p className="sec_desk">
 Shoes
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Gift cards
-   </p>
+   </p></a>
 
-   <p className="sec_desk">
+   <a href=""><p className="sec_desk">
    New Arrivals
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
   Best Sellers
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Sale
-   </p>
+   </p></a>
    </div>
 
    <div className="foot">
    <h3 className="sec_foot">
    COLLECTIONS
    </h3>
-   <p className="sec_desk">
+   <a href=""><p className="sec_desk">
 Shoes
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Clothing
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 
    accessories
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Shoes
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Gift cards
-   </p>
+   </p></a>
 
-   <p className="sec_desk">
+   <a href=""><p className="sec_desk">
    New Arrivals
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
   Best Sellers
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Sale
-   </p>
+   </p></a>
    </div>
 
 <div className="foot">
    <h3 className="sec_foot">
    COMPANY INFO
    </h3>
-   <p className="sec_desk">
+  <a href=""><p className="sec_desk">
 Shoes
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Clothing
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 
    accessories
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Shoes
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Gift cards
-   </p>
+   </p></a>
 
-   <p className="sec_desk">
+  <a href=""> <p className="sec_desk">
    New Arrivals
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
   Best Sellers
-   </p>
-   <p className="sec_desk">
+   </p></a>
+   <a href=""><p className="sec_desk">
 Sale
-   </p>
+   </p></a>
    </div>
 
    <div className="foot">
@@ -155,7 +154,9 @@ Sale
 
      
     </div>
+
     <div className="foot_grey">
+
     <div className="foot_under flex">
       <p className="sec_desk">Your Privacy Choices
 </p>
@@ -166,6 +167,7 @@ Terms and Conditions</p>
     </div>
 
     <p className="foot_txt">© 2024 adidas America, Inc.</p>
+    
       </div>
    </section>
   );
