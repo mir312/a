@@ -28,10 +28,18 @@
     margin-top: 200px; 
 }
 
-
-.icon_foot .face{
-    background: url(../../img/icons/ic_face.svg) no-repeat center;
+.icon_foot{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 50px;
+    height: 50px;
 }
+.face{
+    background-image: url(../../img/icons/facebook.svg);
+}
+
 
 .sec_foot{
  font-size: 25px;  
