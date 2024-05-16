@@ -111,45 +111,43 @@ function Footer() {
                   <h3 className="sec_foot">
                      SPORTS
                   </h3>
-                  <p className="sec_desk">
+   <a href="">  <p className="sec_desk">
                      Shoes
-                  </p>
-                  <p className="sec_desk">
+       </p></a> 
+      <a href=""><p className="sec_desk">
                      Clothing
-                  </p>
-                  <p className="sec_desk">
-
-                     accessories
-                  </p>
-                  <p className="sec_desk">
+       </p></a>
+      <a href=""> <p className="sec_desk">
+   accessories
+      </p></a>
+      <a href=""> <p className="sec_desk">
                      Shoes
-                  </p>
-                  <p className="sec_desk">
+      </p></a>
+      <a href=""> <p className="sec_desk">
                      Gift cards
-                  </p>
+      </p></a>
 
-                  <p className="sec_desk">
+     <a href=""><p className="sec_desk">
                      New Arrivals
-                  </p>
-                  <p className="sec_desk">
+          </p></a> 
+      <a href=""><p className="sec_desk">
                      Best Sellers
-                  </p>
-                  <p className="sec_desk">
+          </p></a>
+   <a href=""> <p className="sec_desk">
                      Sale
-                  </p>
-               </div>
+      </p></a>
+    </div>
 
-               <div className="foot">
-                  <h3 className="sec_foot">FOLLOW US</h3>
-                  <div className="icons_foot">
-
-                     <i className="icon_foot face"></i>
-                     <i className="icon_foot"></i>
-                     <i className="icon_foot"></i>
-                     <i className="icon_foot"></i>
-                     <i className="icon_foot"></i>
-                     <i className="icon_foot"></i>
-                  </div>
+         <div className="foot">
+         <h3 className="sec_foot">FOLLOW US</h3>
+          <div className="icons_foot">
+        <a href=""> <i className="icon_foot face"></i></a>
+       <a href=""> <i className="icon_foot inst"></i></a>
+         <a href=""><i className="icon_foot twit"></i></a>
+        <a href=""><i className="icon_foot pint"></i></a> 
+         <a href=""><i className="icon_foot youtube"></i></a>
+    <a href=""><i className="icon_foot"></i></a>
+         </div>
                </div>
 
             </div>

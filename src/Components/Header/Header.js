@@ -17,11 +17,11 @@ function Header() {
           <Icons />
           <div className="Buttons flex">
             <Button>Login</Button>
-            <Button>Sign In</Button>
+            <Button>Sign In</Button> 
           
           </div>
           <Link to="/cart" className="Cart_ic">
-            <span>0</span>
+            <span>1</span>
           </Link>
         </div>
       </div>
