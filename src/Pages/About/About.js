@@ -1,7 +1,6 @@
 
 import './About.css';
-
-import 
+ 
 function About() {
   return (
     <section className="about">

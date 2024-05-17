@@ -10,7 +10,11 @@
     margin: 0 auto;
     padding-top: 15px;
    cursor: pointer;
-
+}
+.btn_buy:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.3s;
 }
 
 .sec_footer{
@@ -73,9 +77,16 @@
 }
 .sec_desk{
  margin-top: 10px;
- text-align: left;   
+ text-align: left; 
+ font-size: 16px;  
 }
-
+.sec_desk:hover{
+text-decoration: underline;
+transition:0.3s;
+color: black;
+font-size: 20px;
+font-weight: 500;
+}
 .foot_grey{
     background: #403D3D;
     margin-top: 50px;

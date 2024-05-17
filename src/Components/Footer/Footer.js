@@ -23,7 +23,7 @@ function Footer() {
                      Clothing
                   </p></a>
                   <a href=""><p className="sec_desk">
-                     accessories
+                     Accessories
                   </p></a>
                   <a href=""><p className="sec_desk">
                      Shoes
@@ -55,7 +55,7 @@ function Footer() {
                   </p></a>
                   <a href=""><p className="sec_desk">
 
-                     accessories
+                     Accessories
                   </p></a>
                   <a href=""><p className="sec_desk">
                      Shoes
@@ -87,7 +87,7 @@ function Footer() {
                   </p></a>
                   <a href=""><p className="sec_desk">
 
-                     accessories
+                     Accessories
                   </p></a>
                   <a href=""><p className="sec_desk">
                      Shoes
@@ -118,7 +118,7 @@ function Footer() {
                      Clothing
        </p></a>
       <a href=""> <p className="sec_desk">
-   accessories
+   Accessories
       </p></a>
       <a href=""> <p className="sec_desk">
                      Shoes
@@ -141,7 +141,7 @@ function Footer() {
          <div className="foot">
          <h3 className="sec_foot">FOLLOW US</h3>
           <div className="icons_foot">
-        <a href=""> <i className="icon_foot face"></i></a>
+   <a href=""> <i className="icon_foot face"></i></a>
        <a href=""> <i className="icon_foot inst"></i></a>
          <a href=""><i className="icon_foot twit"></i></a>
         <a href=""><i className="icon_foot pint"></i></a> 
