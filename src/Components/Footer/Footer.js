@@ -155,7 +155,7 @@ function Footer() {
 
          </div>
 
-         <div className="foot_grey">
+   <div className="foot_grey">
 
             <div className="foot_under flex">
                <p className="sec_desk">Your Privacy Choices

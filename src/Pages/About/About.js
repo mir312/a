@@ -1,9 +1,10 @@
 
 import './About.css';
 
-
+import 
 function About() {
   return (
+    <section className="about">
     <div className="cont flex">
       <div className="card">
         <div className="imgBx">
@@ -83,7 +84,7 @@ function About() {
 
     </div>
 
-
+    </section>
 
   );
 
