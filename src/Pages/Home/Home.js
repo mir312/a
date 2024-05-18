@@ -13,7 +13,7 @@ function Home() {
 <div className="container">
  <h3 className="sec_home">Still Interested?</h3>
 
- 
+
 
 <div className="cards flex">
  <div className="card">
@@ -64,8 +64,8 @@ function Home() {
  <p>Originals</p>
  </div>
 </div>
+</div> 
 
-</div>
 </section>
       );
 }
