@@ -245,5 +245,17 @@ text-align: center;
   object-fit: cover;
   position: relative;
   margin-top: 60px;
-  
+  }
+.about_txt{
+  width: 45%;
+  margin-top: 180px;
+}
+.sec_about{
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+.desc_about{
+  width: 500px;
+  font-size: 18px;
+  line-height: 28px;
 }
