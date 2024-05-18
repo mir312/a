@@ -24,17 +24,20 @@ function About() {
 <video className='video-2' controls autoPlay muted>
    <source src="https://res.cloudinary.com/adidas-app/video/upload/q_auto:good/v1/feed-assets/qja4xzctlcgydnqqsyjl.mp4" autoplay="" loop="" preload="metadata" crossorigin="anonymous" playsinline="" type="video/mp4"></source>
           </video>
+          <p className='video-txt'>WITHOUT A BEAUTIFUL PLANET
+THERE IS NO BEAUTIFUL GAME,
+FOR THE PLACES WE PLAY.</p> 
         
  <div className="container">
 <div className="commitment flex">
 <video className='video-3' controls autoPlay muted>
    <source src= "https://res.cloudinary.com/adidas-app/video/upload/q_auto:good/v1/page-assets/40/bb3q62lxs9x2xz9eqpwr.mp4" poster="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/nvvl4fzzg2hoaux9krvs.jpeg" preload="metadata" crossorigin="anonymous" autoplay="" loop="" preload = "metadata" crossorigin="anonymous" playsinline="" type="video/mp4"></source>
           </video>
+
+          <h2 className="sec_about">OUR COMMITMENT</h2>
 </div>
 {/* <video class="latte-video latte-video::cue" src="https://res.cloudinary.com/adidas-app/video/upload/q_auto:good/v1/page-assets/40/bb3q62lxs9x2xz9eqpwr.mp4" poster="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/nvvl4fzzg2hoaux9krvs.jpeg" preload="metadata" crossorigin="anonymous" style="position: relative; height: 100%; width: 100%; object-fit: cover;"></video> */}
-          <p className='video-txt'>WITHOUT A BEAUTIFUL PLANET
-THERE IS NO BEAUTIFUL GAME,
-FOR THE PLACES WE PLAY.</p> 
+       
     <div className="cont flex">
 
       <div className="card">

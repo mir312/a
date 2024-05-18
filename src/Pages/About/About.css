@@ -239,3 +239,10 @@ text-align: center;
   height: 70px;
   background:#E6E3E3;
 }
+.video-3{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  position: relative;
+  margin-top: 60px;
+}
