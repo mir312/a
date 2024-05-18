@@ -7,7 +7,7 @@ import img from '../../img/adi-1.png'
 function Home() {
       return (
       <section className="home">
-      <video className='video' controls autoPlay muted>
+      <video className='video-2' controls autoPlay muted>
    <source src={video} type="video/mp4"></source>
                   </video>
 
@@ -78,7 +78,7 @@ function Home() {
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
  <p>Originals</p>
- <a href="" className="shop_now">
+  <a href="" className="shop_now">
       SHOP NOW
  </a>
  </div>
