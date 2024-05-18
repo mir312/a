@@ -1,6 +1,7 @@
 import './Home.css';
 import video from '../../video/adidas.mp4'
 import img from '../../img/adi-1.png'
+// import img from '../../img/icons/heart.svg'
 
 
 function Home() {
@@ -17,8 +18,8 @@ function Home() {
 
 <div className="cards flex">
  <div className="card">
- <img src={img} alt="" />
-
+ <img className='home_img' src={img} alt="" />
+ <i className='heart_ic'></i>
  <span className="price">70$</span>
   <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
 <p>Originals</p>
@@ -27,7 +28,7 @@ function Home() {
 
 <div className="card">
  <img src={img} alt="" />
-
+ <i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
  <p>Originals</p>
@@ -35,14 +36,14 @@ function Home() {
 
  <div className="card">
  <img src={img} alt="" />
-
+<i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
    <p>Originals</p>
  </div>
 <div className="card">
 <img src={img} alt= ""/>
-
+<i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
 <p>Originals</p>
@@ -50,7 +51,7 @@ function Home() {
 
 <div className="card">
 <img src={img} alt= ""/>
-
+<i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
 <p>Originals</p>
@@ -58,7 +59,7 @@ function Home() {
 
 <div className="card">
  <img src={img} alt= ""/>
-
+ <i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
  <p>Originals</p>

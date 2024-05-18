@@ -7,3 +7,40 @@
 .cards{
     margin-top: -120px;
 }
+
+.price{
+    position: absolute;
+    margin-top: -50px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+    border: solid 1px #fff;
+    background: #fff;
+    width: 50px;
+    height: 30px;
+}
+.home_img{
+    position: relative;
+}
+.home_txt{
+    margin-top: 15px;
+    font-weight: normal;
+
+}
+.card p{
+    color: darkgrey;
+    margin-top: 10px;
+}
+.heart_ic{
+    position: absolute;
+    background-image: url(../../img/icons/heart-2.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 25px;
+    height: 25px;
+     margin-top: -400px; 
+     margin-left: 360px;
+
+}
