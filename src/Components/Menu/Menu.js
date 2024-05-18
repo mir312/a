@@ -5,7 +5,7 @@ import '../../img/adidas.png'
 
 function Menu() {
   return (
-    <section className="menu">
+    
     <nav className='Menu'>
       <ul className='list flex'>
   
@@ -39,8 +39,6 @@ function Menu() {
       
     </nav>
 
-
-    </section>
   );
 }
 
