@@ -103,11 +103,22 @@ font-weight: 500;
     width: 600px;
     justify-content: center;
     margin: 0 auto;
-   
-    
 }
 .foot_txt{
     text-align: center;
     color: #d1c5c5;
+    margin-top: 40px;
+}
+
+.border{
+    border: solid 1px #d1c5c5;
+    width: 1px;
+    height: 30px;
+    margin:45px 10px 0 10px;
+}
+.sec_under{
     margin-top: 50px;
+    text-align: left; 
+    font-size: 16px;
+    color: #d1c5c5;
 }

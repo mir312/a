@@ -158,12 +158,16 @@ function Footer() {
    <div className="foot_grey">
 
             <div className="foot_under flex">
-               <p className="sec_desk">Your Privacy Choices
-               </p>
-               <p className="sec_desk">Your Privacy Choices
-               </p>
-               <p className="sec_desk">
-                  Terms and Conditions</p>
+               <a href=""><p className="sec_under">Your Privacy Choices
+               </p></a>
+
+               <div className="border"></div>
+               <a href=""><p className="sec_under"> Privacy  Policy
+               </p></a>
+               <div className="border"></div>
+
+              <a href=""> <p className="sec_under">
+                  Terms and Conditions</p></a>
             </div>
 
             <p className="foot_txt">© 2024 adidas America, Inc.</p>
