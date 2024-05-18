@@ -32,6 +32,9 @@ function Home() {
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
  <p>Originals</p>
+ <a href="" className="shop_now">
+      SHOP NOW
+ </a>
   </div>
 
  <div className="card">

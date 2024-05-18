@@ -30,6 +30,7 @@
 .card p{
     color: darkgrey;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .heart_ic{
     position: absolute;
@@ -42,6 +43,14 @@
     height: 20px;
      margin-top: -400px; 
      margin-left: 360px;
-
+}
+.shop_now{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.shop_now:hover{
+ background: #3a3838;
+ color: #fff;
+ transition: 0.3s;
 
 }
