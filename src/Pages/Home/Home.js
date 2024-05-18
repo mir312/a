@@ -5,7 +5,7 @@ import img from '../../img/adi-1.png'
 
 function Home() {
       return (
-            <section className="home">
+      <section className="home">
       <video className='video' controls autoPlay muted>
    <source src={video} type="video/mp4"></source>
                   </video>
@@ -13,7 +13,7 @@ function Home() {
 <div className="container">
  <h3 className="sec_home">Still Interested?</h3>
 
- <div className=" container">
+ 
 
 <div className="cards flex">
  <div className="card">
@@ -64,7 +64,7 @@ function Home() {
  <p>Originals</p>
  </div>
 </div>
-</div>
+
 </div>
 </section>
       );

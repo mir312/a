@@ -1,6 +1,6 @@
 
 .Menu li{
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 25px;
 	letter-spacing: 2px;
@@ -21,4 +21,9 @@
 font-size: 12px;
 font-weight: 500;
 line-height: 14px;
+}
+
+.Menu li:hover{
+	color: black;
+	font-weight: 600;
 }

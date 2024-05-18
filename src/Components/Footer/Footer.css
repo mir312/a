@@ -9,7 +9,7 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 15px;
-   cursor: pointer;
+   margin-top: -25px;
 }
 .btn_buy:hover{
     background: #fff;
@@ -24,6 +24,7 @@
 	text-align: center;
 	margin: 0 auto;
     font-family: 'Roboto', arial, sans-serif;
+     margin-top: -25px;
 }
 .footer{
     height: 100px;
