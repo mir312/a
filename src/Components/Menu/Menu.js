@@ -23,8 +23,12 @@ function Menu() {
           </ul>
         </li>
         <li>
+          <Link to="/delivery">Sale</Link>
+        </li>
+        <li>
           <Link to="/delivery">Delivery</Link>
         </li>
+
         <li>
           <Link to="/contacts">Contacts</Link>
         </li>
