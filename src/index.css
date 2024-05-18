@@ -75,7 +75,7 @@ body{
 	display: none;
 }
 section{
-	padding: 100px 0;
+	/* padding: 100px 0; */
 }
 .sec_tit{
 	font-weight: 800;

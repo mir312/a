@@ -27,10 +27,12 @@
      margin-top: -25px;
 }
 .footer{
-    height: 100px;
-   width: 100%;
-   background: rgb(227, 227, 35);
- 
+    height: 130px;
+    width: 100%;
+    background: rgb(227, 227, 35);
+    padding-top: 50px;
+    margin-top: 50px;
+    
 }
 
 .icon_foot{
