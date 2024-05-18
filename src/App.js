@@ -10,6 +10,7 @@ import Home from './Pages/Home/Home';
 import Contacts from './Pages/Contacts/Contacts';
 import Order from './Pages/Order/Order';
 import Delivery from './Pages/Delivery/Delivery';
+import Sale from './Pages/Sale/Sale';
 import Cart from './Pages/Cart/Cart';
 import NotFound from './Pages/NotFound/NotFound';
 import {
@@ -31,6 +32,7 @@ function App() {
             <Route path="contacts" element={<Contacts />} />
             <Route path="order" element={<Order />} />
             <Route path="delivery" element={<Delivery />} />
+            <Route path="sale" element={<Sale />} />
             <Route path="cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

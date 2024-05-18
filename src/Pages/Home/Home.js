@@ -14,8 +14,6 @@ function Home() {
 <div className="container">
  <h3 className="sec_home">Still Interested?</h3>
 
-
-
 <div className="cards flex">
  <div className="card">
  <img className='home_img' src={img} alt="" />

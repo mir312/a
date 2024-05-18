@@ -209,6 +209,7 @@ object-fit: cover;
 .video-txt{
   position: absolute;
   margin-top: -200px;
+  margin-left: 100px;
   width: 600px;
  line-height: 40px;
   font-size: 38px;
@@ -258,5 +259,5 @@ text-align: center;
   width: 500px;
   font-size: 18px;
   line-height: 28px;
-  
+
 }

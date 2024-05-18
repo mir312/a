@@ -32,7 +32,7 @@ FOR THE PLACES WE PLAY.</p>
 <div className="commitment flex">
  
 <video className='video-3' controls autoPlay muted>
-   <source src= "https://res.cloudinary.com/adidas-app/video/upload/q_auto:good/v1/page-assets/40/bb3q62lxs9x2xz9eqpwr.mp4" poster="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/nvvl4fzzg2hoaux9krvs.jpeg" preload="metadata" crossorigin="anonymous" autoplay="" loop="" preload = "metadata" crossorigin="anonymous" playsinline="" type="video/mp4"></source>
+   <source src= "https://res.cloudinary.com/adidas-app/video/upload/q_auto:good/v1/page-assets/40/bb3q62lxs9x2xz9eqpwr.mp4" poster="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/nvvl4fzzg2hoaux9krvs.jpeg" preload="metadata" crossorigin="anonymous" autoplay="" loop="" preload ="metadata" crossorigin="anonymous" playsinline="" type="video/mp4"></source>
           </video>
           
 <div className="about_txt">
