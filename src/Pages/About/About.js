@@ -1,9 +1,12 @@
 
 import './About.css';
- 
+import video from '../../video/adidas-2.mp4' 
 function About() {
   return (
     <section className="about">
+      <video className='video-2' controls autoPlay muted>
+   <source src={video} type="video/mp4"></source>
+                  </video>
     <div className="cont flex">
       <div className="card">
         <div className="imgBx">
