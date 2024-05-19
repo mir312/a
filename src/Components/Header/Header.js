@@ -21,7 +21,11 @@ function Header() {
           
           </div>
           <Link to="/cart" className="Cart_ic">
-            <span> <a href="" className="cart_ic">
+            <span>
+              
+              
+               <a href="" className="cart_ic">
+              
 					<span className="cart_num">0</span>
 					<i className="icons_head"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
@@ -33,6 +37,7 @@ function Header() {
 								fill="black" />
 						</svg></i>
 				</a> 
+        
 </span>
           </Link>
         </div>
