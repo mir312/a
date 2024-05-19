@@ -114,11 +114,12 @@ function Home() {
          <a href=""> <h3 className="brend_txt">nmd</h3>
        <div className="home_border"></div></a>
           </div>
+           </div>
+    </div>
 
-          
-     </div>
+    <div className="home_grey flex">
 
-</div>
+    </div>
 </div> 
 
 </section>
