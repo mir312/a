@@ -61,20 +61,20 @@
 
  .home_border{
     border: solid 1px #3a3838;
-    width: 300px;
+    width: 400px;
     height: 1px;
  } 
 
  .home_border:hover{
     height: 7px;
     background: #3a3838;
-    width: 300px; 
+    width: 400px; 
  transition: 0.3s;
  }
  .brends .home_txt{
     font-size: 28px;
     font-weight: 600;
-    margin-bottom: 50px;
+  
  }
  .brend_txt{
     font-size: 35px;
@@ -88,4 +88,7 @@
  .brends {
     margin-top:80px;
 
+ }
+ .home_brend{
+    padding-top: 70px;
  }

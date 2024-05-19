@@ -90,6 +90,31 @@ function Home() {
        <div className="home_border"></div></a>
           </div>
 
+          <div className="home_brend">
+         <a href=""> <h3 className="brend_txt">campus</h3>
+       <div className="home_border"></div></a>
+          </div> 
+
+          <div className="home_brend">
+         <a href=""> <h3 className="brend_txt">gazelle</h3>
+       <div className="home_border"></div></a>
+          </div>
+
+          <div className="home_brend">
+         <a href=""> <h3 className="brend_txt">messi</h3>
+       <div className="home_border"></div></a>
+          </div>
+
+          <div className="home_brend">
+         <a href=""> <h3 className="brend_txt">ultraboost</h3>
+       <div className="home_border"></div></a>
+          </div>
+
+          <div className="home_brend">
+         <a href=""> <h3 className="brend_txt">nmd</h3>
+       <div className="home_border"></div></a>
+          </div>
+
           
      </div>
 
