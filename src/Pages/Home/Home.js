@@ -120,7 +120,7 @@ function Home() {
    
 
 </div> 
-<div className="text ">
+<div className="text_text ">
      <div className="container">
  <div className="home_grey flex">
      <div className="txt_grey">
