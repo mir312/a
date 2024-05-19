@@ -66,9 +66,10 @@
  } 
 
  .home_border:hover{
- height: 7px;
- background: #3a3838;
- width: 300px;
+    height: 7px;
+    background: #3a3838;
+    width: 300px; 
+ transition: 0.3s;
  }
  .brends .home_txt{
     font-size: 28px;
@@ -80,6 +81,10 @@
     font-weight: 700;
     margin-bottom: 20px;
  }
+ .home_brend:hover{
+    
+ }
+
  .brends {
     margin-top:80px;
 

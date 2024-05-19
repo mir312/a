@@ -86,9 +86,11 @@ function Home() {
      <h4 className="home_txt">Popular right now</h4>
      <div className="brend_adi flex">
           <div className="home_brend">
-          <h3 className="brend_txt">samba</h3>
-          <div className="home_border"></div>
+         <a href=""> <h3 className="brend_txt">samba</h3>
+       <div className="home_border"></div></a>
           </div>
+
+          
      </div>
 
 </div>
