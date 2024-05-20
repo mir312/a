@@ -60,3 +60,81 @@ text-align: center;
   line-height: 28px;
 
 }
+
+.sport_img img{
+  width: 400px;
+  height: 350px;
+}
+.sport .sec_about{
+  width: 300px;
+  line-height: 50px;
+  font-size: 45px;
+}
+.sport_p{
+  width: 300px;
+  margin-top: 140px;
+}
+.sec_sport{
+  font-size: 20px;
+  line-height: 27px;
+}
+.sport{
+  margin-top: 100px;
+}
+.sport .sec_deskp{
+  line-height: 25px;
+}
+
+.img_card{
+  width: 320px;
+  height: 350px;
+  margin-top: 20px;
+}
+.about_cards{
+  margin-top: 80px;
+}
+
+.learn  {
+  text-align: center;
+  margin:  0 auto;
+  margin-top: 80px;
+}
+.learn .sek_desk{
+width: 520px;
+margin: 0 auto;
+margin-top: 20px;
+line-height: 25px;
+margin-bottom: 20px;
+}
+
+.btn_about {
+  width: 180px;
+  height: 50px;
+  background: #191919;
+  border: solid 1px ;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.btn_about:hover{
+  background: #fff;
+  color: #000;
+  transition: 0.3s;
+}
+.icon_about{
+  position: absolute;
+  background: url(../../img/icons/icon_about.png) no-repeat ;
+ width: 50px;
+ height: 50px;
+  display: block;
+  margin: 0px 0px 0px 100px;
+  margin-top: -15px;
+
+
+}
