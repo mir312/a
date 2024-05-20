@@ -41,3 +41,11 @@
 	margin-top: -28px;
   margin-left: -30px;
 }
+
+.icons_head-inp:hover{
+border-radius: 50%;
+width: 28px;
+height: 28px;
+background: #999696;
+transition: 0.5s;
+}
