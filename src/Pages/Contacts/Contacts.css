@@ -1,0 +1,134 @@
+.book .page_tit{
+    margin-bottom: 24px;
+    margin-top: 0;
+  
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: center;
+    }
+    .book .page_desc{
+    max-width:545px;
+    margin: 0 auto 72px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    }
+    .form_in{
+        padding: 42px 49px;
+        background: #fff;
+        border-radius: 16px;
+        max-width: 500px;
+       
+        box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
+        position: relative;
+        z-index: 10;
+        margin-top: 80px;
+    }
+    .form_input{
+        width: calc(50% - 12px);
+        margin-bottom: 24px;
+    
+    }
+    .form_input_big{
+    width: 100%;
+    }
+    .form_tit{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2F24;
+    }
+    .input{
+        display: block;
+        border: 1px solid #DBDFD0;
+        border-radius: 72px;
+        padding: 24px;
+    }
+    .form_btn{
+    width: 100%;
+    }
+    .form_btn .btn{
+    width: 100%;
+    padding: 21px 24px;
+    text-align: center;
+    }
+    .map{
+        height: 767px;
+        background-color: red;
+        margin-top: -245px;
+    }
+    .address{
+        background: #fff;
+        margin-top: -245px;
+        padding-top: 350px;
+        margin-bottom: 100px;
+    }
+    .address_in{
+    max-width: 776px;
+    margin: 0 auto;
+    }
+    .address_card{
+        width: calc((100% - 180px) / 3);
+    }
+    .book{
+        padding-bottom: 0;
+        
+    }
+    .input_txt{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #737865;
+    }
+    .input_messege{
+    width: 717px;
+    height: 156px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #DBDFD0;
+    }
+    .input_messege .input_txt{
+        
+    }
+    .address_tit{
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        color:#2C2F24;
+        margin-bottom: 24px;
+    }
+    .address_txt{
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #2C2F24;
+    }
+    .address_link{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #AD343E;
+    }
+  
+
+    .form_contacts{
+        padding: 42px 49px;
+        background: #fff;
+        border-radius: 16px;
+        width: 500px;
+     
+        box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
+        position: relative;
+        z-index: 10;
+        margin-top: 80px;
+    }
