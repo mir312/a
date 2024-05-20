@@ -27,8 +27,16 @@
     font-weight: normal;
 }
 .card{
-
+width: 400px;
+height: 450px;
 }
+
+
+
+/* .video-women{
+   width: 400px;
+   height: 450px;
+} */
 .card p{
     color: darkgrey;
     margin-top: 10px;

@@ -1,6 +1,7 @@
 import './Home.css';
 import video from '../../video/adidas.mp4'
 import img from '../../img/adi-1.png'
+// import video from  '../../video/adi-women.mp4'
 // import img from '../../img/icons/heart.svg'
 
 
@@ -28,10 +29,10 @@ function Home() {
 
 
 <div className="card">
- <img src={img} alt="" />
+ <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/a6a1ecb378204fc6a5a3571b1a3a973e_9366/Samba_OG_Shoes_Kids_White_IE3677_01_standard.jpg"alt="" />
  <i className='heart_ic'></i>
  <span className="price">70$</span>
- <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
+ <a href=""><h4 className="home_txt">Samba</h4></a>
  <p>Originals</p>
  <a href="" className="shop_now">
       SHOP NOW
@@ -39,9 +40,9 @@ function Home() {
   </div>
 
  <div className="card">
- <img src={img} alt="" />
+ <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/316f56cbdc7c4bf483081e81d37143c9_9366/GAZELLE_Green_IF7154_01_standard.jpg"alt="" />
 <i className='heart_ic'></i>
- <span className="price">70$</span>
+ <span className="price">100$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
    <p>Originals</p>
    <a href="" className="shop_now">
@@ -49,7 +50,7 @@ function Home() {
  </a>
  </div>
 <div className="card">
-<img src={img} alt= ""/>
+<img src= "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/70327c21824a42358f8fb1bac58f7797_9366/Gazelle_Bold_Shoes_Red_ID6990_01_standard.jpg" alt= ""/>
 <i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
@@ -60,7 +61,7 @@ function Home() {
 </div>
 
 <div className="card">
-<img src={img} alt= ""/>
+<img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/91fa955f44f54f3bb9f3634bca6ecb5f_9366/Gazelle_Manchester_United_Shoes_Red_IE8503_01_standard.jpg"/>
 <i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
@@ -71,15 +72,17 @@ function Home() {
 </div>
 
 <div className="card">
- <img src={img} alt= ""/>
- <i className='heart_ic'></i>
+<img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/e745acb29cd248e8994a6820a4ac6a29_9366/Gazelle_Shoes_Yellow_IF5937_01_standard.jpg" alt= ""/>
+<i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
- <p>Originals</p>
-  <a href="" className="shop_now">
+<p>Originals</p>
+<a href="" className="shop_now">
       SHOP NOW
  </a>
- </div>
+</div>
+
+
 </div>
 
 <div className="brends">
