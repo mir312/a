@@ -15,15 +15,16 @@ function Menu() {
         <li className='about'>
           <Link to="/about">About</Link>
           <ul className='disnon'>
-            <li>MEN</li>
+            <li>
+            <Link to="/">MEN</Link></li>
 
           </ul>
           <ul className='disnon'>
-            <li>WOMEN</li>
+            <li><Link to="/">WOMEN</Link></li>
             
           </ul>
           <ul className='disnon'>
-            <li>KIDS</li>
+            <li><Link to="/">KIDS</Link></li>
             
           </ul>
         </li>
