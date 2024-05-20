@@ -128,3 +128,22 @@ height: 450px;
    width: 400px;
    height: 350px;
  }
+ .sport .sec_about{
+   width: 300px;
+   line-height: 50px;
+   font-size: 45px;
+ }
+ .sport_p{
+   width: 300px;
+   margin-top: 140px;
+ }
+ .sec_sport{
+   font-size: 20px;
+   line-height: 27px;
+ }
+ .sport{
+   margin-top: 100px;
+ }
+ .sport .sec_desk{
+   line-height: 25px;
+ }
