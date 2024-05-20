@@ -2,6 +2,8 @@
 import './About.css';
 import video from '../../video/adidas-2.mp4' 
 import img from '../../img/about-3.jpeg'
+// import img from '../../img/about_img1.jpeg'
+// import img from '../../img/about_img2.jpeg'
 function About() {
   return (
     <section className="about">
@@ -56,7 +58,29 @@ FOR THE PLACES WE PLAY.</p>
   </div>
 
 
-  .
+ <div className="about_cards">
+  <h2 className="sec_about">
+WE NEED TO BE THERE FOR THE PLANET</h2>
+
+  <div className="about_card-image flex">
+    <img src="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/wlr3oybgnvvabnr8rhyv.jpeg" alt="" className="img_card" />
+    <img src="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/q098wphcsd82iwqtqfbj.jpeg
+    "alt="" className="img_card" />
+    <img src="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/r9rxkfiw81tkexwmmhgr.jpeg" alt="" className="img_card" />
+    <img src="https://res.cloudinary.com/confirmed-web/image/upload/c_lfill,w_1400/v1710511208/adidas-group/I3S/stories/images/00_Exhibit-Select-Candace-Parker-Queen-of-the-Cards-scaled-1440x9999_rptcg5.webp" alt="" className="img_card" />
+  </div>
+ </div>
+
+<div className="learn">
+ <h2 className="sec_about">OUR PARTNERS & PROGRAMS</h2>
+ <p className="sek_desk">Making Sport Equal can't be done alone. So we're teaming up and 
+ co-creating with changemakers to develop programs for real, lasting impact.</p>
+ 
+<button className="btn_about flex">
+  <p>LEARN MORE</p>
+  <i className="icon_about"></i>
+</button>
+</div>
     </div>
     </section>
 
@@ -64,19 +88,7 @@ FOR THE PLACES WE PLAY.</p>
 
 }
 
-  {/* <div className="about ">
-    
-    <h2 className="sec_tit">Still Interested?</h2>   
 
-   <div className="cards flex">
-    
-    <div className="card"><img src="img/adi-1.png" alt="" /></div>
-   <a href=""><h3 className="sec_about">SUPERSTAR</h3></a>
-<p>Style that steals the now </p>
-<a href="" className="shop">SHOP NOW</a>
-   </div>
-
-    </div> */}
 
 
 

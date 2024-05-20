@@ -147,3 +147,13 @@ height: 450px;
  .sport .sec_desk{
    line-height: 25px;
  }
+
+ .img_card{
+   width: 320px;
+   height: 350px;
+   margin-top: 20px;
+ }
+ .about_cards{
+   margin-top: 80px;
+ }
+ 
