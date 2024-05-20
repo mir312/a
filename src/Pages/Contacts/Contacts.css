@@ -20,8 +20,7 @@
         background: #fff;
         border-radius: 16px;
         max-width: 500px;
-       
-        box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
+       box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
         position: relative;
         z-index: 10;
         margin-top: 80px;
@@ -126,7 +125,6 @@
         background: #fff;
         border-radius: 16px;
         width: 500px;
-     
         box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
         position: relative;
         z-index: 10;
