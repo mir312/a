@@ -22,6 +22,10 @@ function Menu() {
             <li>WOMEN</li>
             
           </ul>
+          <ul className='disnon'>
+            <li>KIDS</li>
+            
+          </ul>
         </li>
    
         <li>
