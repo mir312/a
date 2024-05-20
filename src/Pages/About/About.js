@@ -53,7 +53,7 @@ FOR THE PLACES WE PLAY.</p>
       </div>
       <div className="sport_p">
       <h4 className="sec_sport">We ensure sport reflects and celebrates the communities and marketplace we serve.</h4>
-      <p className="sec_desk">It is our ambition that everyone experiences fair play and equal representation in sport, whether on and off the pitch or in the locker rooms and beyond.</p>
+      <p className="sec_deskp">It is our ambition that everyone experiences fair play and equal representation in sport, whether on and off the pitch or in the locker rooms and beyond.</p>
     </div>
   </div>
 
@@ -73,7 +73,7 @@ WE NEED TO BE THERE FOR THE PLANET</h2>
 
 <div className="learn">
  <h2 className="sec_about">OUR PARTNERS & PROGRAMS</h2>
- <p className="sek_deskp">Making Sport Equal can't be done alone. So we're teaming up and 
+ <p className="sek_desk">Making Sport Equal can't be done alone. So we're teaming up and 
  co-creating with changemakers to develop programs for real, lasting impact.</p>
  
 <button className="btn_about flex">
