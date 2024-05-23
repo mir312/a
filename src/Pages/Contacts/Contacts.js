@@ -34,8 +34,29 @@ function Contacts() {
 			</div>
 		 </div>
 
-     <div className="form_contacts flex">
-			
+     <div className="form_contacts ">
+	 <div class="address">
+	
+		<div class="address_in  ">
+			<div class="address_card">
+				<h4 class="address_tit">Call Us:</h4>
+				<a href="tel:+12345678900" class="address_link">+1-234-567-8900</a>
+			</div>
+			<div class="address_card">
+				<h4 class="address_tit">Hours</h4>
+				<p class="address_txt">Mon-Fri: 11am - 8pm , </p>
+				<p class="address_txt"> Sat Sun: 9am - 10pm</p>
+			</div>
+			<div class="address_card">
+				<h4 class="address_tit">Our Location:</h4>
+				<p class="address_txt">123 Bridge Street </p>
+				<p class="address_txt">Nowhere Land,LA 12345</p>
+				<p class="address_txt">United States</p>
+			</div>
+
+		</div>
+
+	   </div>
 		 </div>
 
 

@@ -19,10 +19,38 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
-
-
-
+import {onAuthChange, onCategoriesLoad,onOrdersLoad, onProductsLoad
+} from "./firebase"
+import { createContext, useEffect, useState } from 'react';
+export const AppContext = createContext({
+categories: [],
+products: [],
+orders : [],
+cart: {},
+setCart: () => { },
+user: null,
+});
 function App() {
+  const [categories,setCategories] = useState([]);
+  const [products,setProducts] = useState([]);
+  const [orders,setOrders] = useState([]);
+  const [cart,setCart] = useState(() => {
+    return JSON.parse(localStorage.getItem("cart")) || {};
+  });
+  const [user, setUser] = useState(null);
+  useEffect(() => {
+    onCategoriesLoad(setCategories);
+    onProductsLoad(setProducts);
+    onOrdersLoad(setOrders);
+    onAuthChange(user => {
+      if(user){
+        user.isAdmin = user && user.email === "dakievameerim0@gmail.com";
+      }
+      setUser(user);
+    })
+  } , []);
+
+
   return (
     <div className='App'>
       <Router>
