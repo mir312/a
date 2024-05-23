@@ -22,6 +22,7 @@ import {
 import {onAuthChange, onCategoriesLoad,onOrdersLoad, onProductsLoad
 } from "./firebase"
 import { createContext, useEffect, useState } from 'react';
+import CategoryList from './Components/CategoryList/CategoryList';
 export const AppContext = createContext({
 categories: [],
 products: [],
@@ -34,7 +35,7 @@ function App() {
   const [categories,setCategories] = useState([]);
   const [products,setProducts] = useState([]);
   const [orders,setOrders] = useState([]);
-  const [cart,setCart] = useState(() => {
+  const [cart, setCart] = useState(() => {
     return JSON.parse(localStorage.getItem("cart")) || {};
   });
   const [user, setUser] = useState(null);
@@ -55,6 +56,7 @@ function App() {
     <div className='App'>
       <Router>
         <Header />
+        <CategoryList />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
