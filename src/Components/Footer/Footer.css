@@ -81,13 +81,12 @@
  text-align: left; 
  font-size: 16px;  
 }
-.sec_desk:hover{
+ .sec_desk:hover{
 text-decoration: underline;
 transition:0.3s;
 color: black;
-font-size: 20px;
-font-weight: 500;
-}
+
+} 
 .foot_grey{
     background: #403D3D;
     margin-top: 50px;

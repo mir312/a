@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className='App'>
-    <AppContext.Provider value={{ categories, cart, user, orders }} >
+    {/* <AppContext.Provider value={{ categories, cart, user, orders }} > */}
 
       <Router>
         <Header />
@@ -75,7 +75,7 @@ function App() {
         </main>
         <Footer />
       </Router>
-      </AppContext.Provider>
+      {/* </AppContext.Provider> */}
     </div>
   );
 }
