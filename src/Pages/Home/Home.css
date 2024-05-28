@@ -45,7 +45,6 @@ height: 450px;
 .heart_ic{
     position: absolute;
     background-image: url(../../img/icons/heart-2.svg) ;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
