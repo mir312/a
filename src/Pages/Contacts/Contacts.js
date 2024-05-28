@@ -49,10 +49,12 @@ function Contacts() {
 			</div>
 			<div class="address_card">
 				<h4 class="address_tit">Our Location:</h4>
-				<p class="address_txt">123 Bridge Street </p>
-				<p class="address_txt">Nowhere Land,LA 12345</p>
+				<p class="address_txt">New York State </p>
+				<p class="address_txt"> Oswego County 125</p>
 				<p class="address_txt">United States</p>
 			</div>
+
+
 
 		</div>
 
