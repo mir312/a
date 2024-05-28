@@ -24,12 +24,12 @@ import {onAuthChange, onCategoriesLoad,onOrdersLoad, onProductsLoad
 import { createContext, useEffect, useState } from 'react';
 import CategoryList from './Components/CategoryList/CategoryList';
 export const AppContext = createContext({
-categories: [],
-products: [],
-orders : [],
-cart: {},
-setCart: () => { },
-user: null,
+  categories: [],
+  products: [],
+  orders : [],
+  cart: {},
+  setCart: () => { },
+  user: null,
 });
 function App() {
   const [categories,setCategories] = useState([]);
@@ -54,6 +54,8 @@ function App() {
 
   return (
     <div className='App'>
+    <AppContext.Provider value={{ categories, cart, user, orders }} >
+
       <Router>
         <Header />
         <CategoryList />
@@ -73,6 +75,7 @@ function App() {
         </main>
         <Footer />
       </Router>
+      </AppContext.Provider>
     </div>
   );
 }
