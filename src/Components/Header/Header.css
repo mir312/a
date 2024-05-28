@@ -7,6 +7,7 @@
     display: flex;
 	padding: 10px 0;
 	z-index: 100000;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 4);
 }
 /* .Header_br{
     width: 1424px;
