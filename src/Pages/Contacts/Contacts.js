@@ -55,8 +55,7 @@ function Contacts() {
 			</div>
 
 
-
-		</div>
+    </div>
 
 	   </div>
 		 </div>
