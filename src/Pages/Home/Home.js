@@ -8,7 +8,7 @@ import img from '../../img/adi-1.png'
 function Home() {
       return (
       <section className="home">
-      <video className='video-2' controls autoPlay muted>
+      <video className='video' controls autoPlay muted>
    <source src={video} type="video/mp4"></source>
                   </video>
 
