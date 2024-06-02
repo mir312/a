@@ -1,13 +1,17 @@
 import './Home.css';
 import video from '../../video/adidas.mp4'
 import img from '../../img/adi-1.png'
+import img1 from '../../img/adi_women.png'
+import Image from '../Image/Image';
 // import video from  '../../video/adi-women.mp4'
 // import img from '../../img/icons/heart.svg'
 
 
 function Home() {
       return (
+          
       <section className="home">
+         
       <video className='video' controls autoPlay muted>
    <source src={video} type="video/mp4"></source>
                   </video>
@@ -17,10 +21,13 @@ function Home() {
 
 <div className="cards flex">
  <div className="card">
+     
      <input type='checkbox' name='' id='zoom_img'/>
     
  
- <label for="zoom_img"><img className='home_img' src={img} alt="" /></label>
+ <label for="zoom_img">
+     {/* <a href="img/adi-1.png"></a> */}
+     <img className='home_img' src={img} alt="" /></label>
     
  <i className='heart_ic'></i>
  <span className="price">70$</span>
@@ -34,7 +41,10 @@ function Home() {
 
 <div className="card">
      
- <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/a6a1ecb378204fc6a5a3571b1a3a973e_9366/Samba_OG_Shoes_Kids_White_IE3677_01_standard.jpg"alt="" />
+ {/* <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/a6a1ecb378204fc6a5a3571b1a3a973e_9366/Samba_OG_Shoes_Kids_White_IE3677_01_standard.jpg"alt="" /> */}
+
+ <input type='checkbox' name='' id='zoom_img'/>
+ <label for="zoom_img"><img className='home_img' src={img1} alt="" /></label>
  <i className='heart_ic'></i>
  <span className="price">70$</span>
  <a href=""><h4 className="home_txt">Samba</h4></a>

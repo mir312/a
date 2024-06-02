@@ -1,0 +1,17 @@
+.home_img
+{
+    position: relative;
+    cursor: zoom-in;
+    transition: transform 1.1s ease;
+   
+}
+input[type=checkbox]{
+display: none;
+}
+input[type=checkbox]:checked ~ label > .home_img
+
+{
+transform: scale(3);
+cursor: zoom-out;
+}
+
