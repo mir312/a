@@ -24,7 +24,7 @@ function Menu() {
             
           </ul>
           <ul className='disnon'>
-            <li><Link to="/">KIDS</Link></li>
+            <li><Link to="/kids">KIDS</Link></li>
             
           </ul>
         </li>
