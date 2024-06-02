@@ -3,4 +3,59 @@ width: 100%;
 object-fit: cover;
 position: relative;
 }
+.kids_tit{
+    line-height: 40px;
+    color: aliceblue;
+    font-size: 40px;
+}
+.kids_disney{
+    margin-top: -300px;
+    position: absolute;
+}
+.kids_desc{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn_kids{
+    width: 160px;
+    height: 50px;
+    background: #fff;
+    border: solid 1px ;
+    border-radius: 5px;
+    color:#2f2f2f;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    padding: 15px 20px;
+   
+  }
+  .btn_kids:hover{
+ color:#727171;
+    transition: 0.3s;
+    
+  }
 
+  .icon_kids{
+    position: absolute;
+    background: url(../../img/icons/ic_kids1.png) no-repeat ;
+   width: 40px;
+   height: 40px;
+    display: block;
+    margin: 0px 0px 0px 90px; 
+   margin-top: -10px;
+ background-size: cover;
+  }
+  .icon_kids:hover{
+  background: url(../../img/icons/ic_kids2.png)
+  no-repeat;
+  width: 40px;
+  height: 40px;
+  display: block;
+  transform: 0.3s;
+  margin: 0px 0px 0px 90px;
+ background-size: cover;
+
+  margin-top: -10px;
+  }

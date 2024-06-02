@@ -124,7 +124,6 @@ margin-bottom: 20px;
 }
 
 .btn_about:hover{
-  
   color:#727171;
   transition: 0.3s;
 }
@@ -145,7 +144,6 @@ height: 50px;
 display: block;
 margin: 0px 0px 0px 100px;
 margin-top: -15px;
-margin: 0px 0px 0px 100px;
-margin-top: -15px;
 background-size: cover;
+transform: 0.3s;
 }
