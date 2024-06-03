@@ -14,6 +14,7 @@ import Sale from './Pages/Sale/Sale';
 import Cart from './Pages/Cart/Cart';
 import NotFound from './Pages/NotFound/NotFound';
 import Kids from './Pages/Kids/Kids';
+import Image from './Pages/Image/Image';
 import {
   BrowserRouter as Router,
   Routes,
@@ -69,6 +70,7 @@ function App() {
             <Route path="order" element={<Order />} />
             <Route path="delivery" element={<Delivery />} />
             <Route path="sale" element={<Sale />} />
+            <Route path="image" element={<Image />} />
             <Route path="cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
