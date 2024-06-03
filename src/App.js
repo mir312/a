@@ -15,6 +15,8 @@ import Cart from './Pages/Cart/Cart';
 import NotFound from './Pages/NotFound/NotFound';
 import Kids from './Pages/Kids/Kids';
 import Image from './Pages/Image/Image';
+import ProductList from './Components/ProductList/ProductList'
+import CategoryList from './Components/CategoryList/CategoryList';
 import {
   BrowserRouter as Router,
   Routes,
@@ -59,6 +61,8 @@ function App() {
 
       <Router>
         <Header />
+        <CategoryList />
+        <ProductList />
         <CategoryList />
         <main>
           <Routes>
