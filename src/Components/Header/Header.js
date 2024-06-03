@@ -15,11 +15,9 @@ function Header() {
           <Logo />
           <Menu />
           <Icons />
-          <div className="Buttons flex">
-            <Button>Login</Button>
-            <Button>Sign In</Button> 
-          
-          </div>
+
+          <Button />
+         
           <Link to="/cart" className="Cart_ic">
             <span>
             <a href="#">

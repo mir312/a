@@ -91,10 +91,10 @@ height: 450px;
  } 
 
  .home_border:hover{
-    /* height: 7px;
+    height: 7px;
     background: #3a3838;
     width: 400px; 
- transition: 0.3s; */
+ transition: 0.3s;
  }
  .brends .home_txt{
     font-size: 28px;
@@ -107,11 +107,10 @@ height: 450px;
     margin-bottom: 20px;
  }
  .brend_txt:hover{
-   height: 7px;
+   /* height: 7px;
     background: #3a3838;
-    width: 400px; 
- transition: 0.3s;
- }
+    width: 400px;  */
+}
 .brends {
     margin-top:80px;
 
