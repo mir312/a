@@ -12,7 +12,7 @@ function Home() {
       return (
           
       <section className="home">
-         
+        <Image /> 
       <video className='video' controls autoPlay muted>
    <source src={video} type="video/mp4"></source>
                   </video>
@@ -23,13 +23,13 @@ function Home() {
 <div className="cards flex">
  <div className="card">
      
-     <input type='checkbox' name='' id='zoom_img'/>
+     {/* <input type='checkbox' name='' id='zoom_img'/> */}
     
- 
- <label for="zoom_img">
-     {/* <a href="img/adi-1.png"></a> */}
-     <img className='home_img' src={img} alt="" /></label>
-    
+ <a href="../../img/adi-1.png"><img className='home_img' src={img} alt="" /></a> 
+ {/* <label for="zoom_img">
+     
+ </label>
+     */}
  <i className='heart_ic'></i>
  <span className="price">70$</span>
   <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
