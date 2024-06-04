@@ -1,6 +1,6 @@
 import './Men.css';
 import video2 from '../../video/messi.mp4'
-
+import video3 from '../../video/messi.mp4'
 function Men() {
   return (
     <section className="men">
@@ -25,9 +25,11 @@ function Men() {
 
 <div className="cards_video flex">
     <div className="video_cadr">
-    <video className='video_' controls autoPlay muted>
-   <source src={video2} type="messi/mp4"></source>
+    <video className='video_shoes' controls autoPlay muted>
+   <source src={video3} type="messi-1/mp4"></source>
     </video> 
+
+    
     </div>
 </div>
  </div>
