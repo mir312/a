@@ -1,26 +1,26 @@
-.kids_video{
-width: 100%;
+.men_video{
+ width: 100%;
 object-fit: cover;
 position: relative;
 }
-.kids_tit{
+.men_tit{
     line-height: 40px;
     color: aliceblue;
     font-size: 40px;
 }
-.kids_disney{
+.messi{
     margin-top: -300px;
     position: absolute;
     margin-left: 100px;
 }
-.kids_desc{
+.men_desc{
     color: aliceblue;
     margin-top: 20px;
     font-size: 18px;
     margin-bottom: 30px;
 }
-.btn_kids{
-    width: 160px;
+.btn_men{
+    width: 200px;
     height: 50px;
     background: #fff;
     border: solid 1px ;
@@ -32,31 +32,30 @@ position: relative;
     padding: 15px 20px;
    
   }
-  .btn_kids:hover{
+  .btn_men:hover{
  color:#727171;
     transition: 0.3s;
     
   }
 
-  .icon_kids{
+  .icon_men{
     position: absolute;
     background: url(../../img/icons/ic_kids1.png) no-repeat ;
    width: 40px;
    height: 40px;
     display: block;
-    margin: 0px 0px 0px 90px; 
+    margin: 0px 0px 0px 130px; 
    margin-top: -10px;
  background-size: cover;
   }
-  .icon_kids:hover{
+  .icon_men:hover{
   background: url(../../img/icons/ic_kids2.png)
   no-repeat;
   width: 40px;
   height: 40px;
   display: block;
   transform: 0.3s;
-  margin: 0px 0px 0px 90px;
+  margin: 0px 0px 0px 130px;
  background-size: cover;
-
-  margin-top: -10px;
+margin-top: -10px;
   }

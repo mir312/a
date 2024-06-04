@@ -16,7 +16,7 @@ function Menu() {
           <Link to="/about">About</Link>
           <ul className='disnon'>
             <li>
-            <Link to="/">MEN</Link></li>
+            <Link to="/men">MEN</Link></li>
 
           </ul>
           <ul className='disnon'>

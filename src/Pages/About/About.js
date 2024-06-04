@@ -2,8 +2,10 @@
 import './About.css';
 import video from '../../video/adidas-2.mp4' 
 import img from '../../img/about-3.jpeg'
-// import img from '../../img/about_img1.jpeg'
-// import img from '../../img/about_img2.jpeg'
+import img1 from '../../img/about-1.png'
+import img2 from '../../img/about_img2.jpeg'
+import img3 from '../../img/about-img.jpeg'
+import img4 from '../../img/about_img4.jpeg'
 function About() {
   return (
     <section className="about">
@@ -63,11 +65,10 @@ FOR THE PLACES WE PLAY.</p>
 WE NEED TO BE THERE FOR THE PLANET</h2>
 
   <div className="about_card-image flex">
-    <img src="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/wlr3oybgnvvabnr8rhyv.jpeg" alt="" className="img_card" />
-    <img src="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/q098wphcsd82iwqtqfbj.jpeg
-    "alt="" className="img_card" />
-    <img src="https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/40/r9rxkfiw81tkexwmmhgr.jpeg" alt="" className="img_card" />
-    <img src="https://res.cloudinary.com/confirmed-web/image/upload/c_lfill,w_1400/v1710511208/adidas-group/I3S/stories/images/00_Exhibit-Select-Candace-Parker-Queen-of-the-Cards-scaled-1440x9999_rptcg5.webp" alt="" className="img_card" />
+    <img src={img1} alt="" className="img_card" />
+    <img src={img2}alt="" className="img_card" />
+    <img src={img3} alt="" className="img_card" />
+    <img src={img4} alt="" className="img_card" />
   </div>
  </div>
 

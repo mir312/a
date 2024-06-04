@@ -25,7 +25,8 @@ function Home() {
      
       <input type='checkbox' name='' id='zoom_img'/> 
     
- <a href="../../img/adi-1.png"></a> 
+ <a href="img/adi-1.png"> </a> 
+ 
  <label for="zoom_img">
  <img className='home_img' src={img} alt="" />
  </label>
